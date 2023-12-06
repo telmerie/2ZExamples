@@ -59,6 +59,11 @@ if statement -->
 // string? input = Console.ReadLine();
 // Console.WriteLine("This is the input: \n" + input);
 
-Console.WriteLine("What do you wnat to multiply 2 with?");
-int? number = int.Parse(Console.ReadLine());
-Console.WriteLine("2 * " + number + " = " + (2*number));
+// Console.WriteLine("What do you wnat to multiply 2 with?");
+// int? number = int.Parse(Console.ReadLine());
+// Console.WriteLine("2 * " + number + " = " + (2*number));
+
+// __________________________
+// Convert.ToDouble() --> converts input to a double
+// Convert.ToInt32() --> convert to an int
+// Console.WriteLine("{0} {0} {0} {0}", 4);
