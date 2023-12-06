@@ -64,6 +64,13 @@ if statement -->
 // Console.WriteLine("2 * " + number + " = " + (2*number));
 
 // __________________________
-// Convert.ToDouble() --> converts input to a double
-// Convert.ToInt32() --> convert to an int
+// Convert.ToDouble(<double>) --> converts input to a double
+// Convert.ToInt32(<int>) --> convert to an int
 // Console.WriteLine("{0} {0} {0} {0}", 4);
+// Convert.ToSingle(<float>) --> convert to float
+
+
+
+//_________________________________________________
+// char c = 'a' ;
+// Convert.ToChar(<char>)
