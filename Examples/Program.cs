@@ -5,6 +5,7 @@
 int are whole numbers (-5, 6 , 57894132)
 float decimal numbers
 string is Text in ""
+bool is a boolean with a true false value
 */
 
 // int x; //Declared x
@@ -23,6 +24,41 @@ string is Text in ""
 // Console.WriteLine("float to int " + e);
 
 
-string str = "I am a string" + "\nAnd so am I";
+// string str = "I am a string" + "\nAnd so am I";
 
-Console.WriteLine(str);
+// Console.WriteLine(str);
+
+// bool erDetTirsdag = false ;
+// bool erDetOnsdag = true;
+
+
+// Console.WriteLine("Er det tirsdag? " + erDetTirsdag);
+
+////________________________________
+/*Logics
+if statement --> 
+*/
+
+// int x = 1;
+
+
+// if (x == 4){
+//     Console.WriteLine("X is four");
+// } else if ( x == 1) {
+//     Console.WriteLine("X is one");
+// } else if (x == 2){
+//     Console.WriteLine("X is two");
+// } else {
+//     Console.WriteLine("X is not one, two or four");
+// }
+
+///int.Parse(Console.ReadLine()) -- user input
+///Console.Read(); -->  keeps console open until a key is pressed
+
+
+// string? input = Console.ReadLine();
+// Console.WriteLine("This is the input: \n" + input);
+
+Console.WriteLine("What do you wnat to multiply 2 with?");
+int? number = int.Parse(Console.ReadLine());
+Console.WriteLine("2 * " + number + " = " + (2*number));
