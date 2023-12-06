@@ -4,7 +4,9 @@
 /*Datatypes: int, float, string, bool
 int are whole numbers (-5, 6 , 57894132)
 float decimal numbers
+double decimal numbal bigger than floats
 string is Text in ""
+char is a charcter in ''
 bool is a boolean with a true false value
 */
 
@@ -74,3 +76,9 @@ if statement -->
 //_________________________________________________
 // char c = 'a' ;
 // Convert.ToChar(<char>)
+
+int x = 2;
+int y = 4;
+
+Console.WriteLine("I am addin the number " + x + " to the number " + y + " which is " + (x+y));
+Console.WriteLine("I am adding the number {0} to the number {1} which is {2}", x, y, x+y);
